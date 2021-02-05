@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+html, body {
+   
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.pages {
+    width: 100vw;
+    height: 100vh;
+}
+
+.portal {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 90;
+    margin: 1vw;
+    width: 98vw;
+    height: 15vh;
+    background: #FFF;
+    color: #000;
+}
+
+.portal h1 {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 15vh;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.pages h1 {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100vh;
+    margin: 0;
+    text-transform: uppercase;
+}
+.one {
+    background:lightgreen;
+    color: #FFF;
+}
+
+.two {
+    background: lightgoldenrodyellow;
+    color: #000;
+}
+
+.three {
+    background: #FFFD98;
+    color: #FFF;
+}
+.navbar-end a{margin-right: 10px;}
